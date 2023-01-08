@@ -6,7 +6,7 @@ Proyecto SprinBoot Con Dependecias:
 *  Spring Data Jpa
 *  Spring Web
 *  Spring Boot Dev Tool
-Aplicacion Api Rest Con acceso a base Datos H2 para persistir la infpormacion
+Aplicacion Api Rest Con acceso a base Datos H2 para persistir la informacion
 
 
 El acceso se puede realizar desde Postman o Navegador...
