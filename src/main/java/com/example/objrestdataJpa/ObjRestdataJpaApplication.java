@@ -25,7 +25,7 @@ ObjRestdataJpaApplication {
 			System.out.println(libros.getId());
 			System.out.println(libros.getAutor());
 		}
-		System.out.println("hola mundo");
+		System.out.println("hola mundoo");
 
 		}
 
