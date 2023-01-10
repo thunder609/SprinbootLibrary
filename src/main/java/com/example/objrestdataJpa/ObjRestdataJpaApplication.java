@@ -1,7 +1,7 @@
 package com.example.objrestdataJpa;
 
 import com.example.objrestdataJpa.entities.Libro;
-import com.example.objrestdataJpa.repository.LibroRepositoy;
+import com.example.objrestdataJpa.repository.LibroRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -13,7 +13,7 @@ ObjRestdataJpaApplication {
 	public static void main(String[] args) {
 
 		   ApplicationContext context=   SpringApplication.run(ObjRestdataJpaApplication.class, args);
-		     LibroRepositoy rep= context.getBean(LibroRepositoy.class);
+		     LibroRepository rep= context.getBean(LibroRepository.class);
 			 //Crud
 		// Crear Libro
 		    Libro l1 = new Libro(null,"Programacion c++","osaldo",100,10.0,true);
